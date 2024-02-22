@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start {
+  @apply w-full h-full p-6 bg-gradient-to-r from-sky-500 to-indigo-500;
+  height: 100vh;
+}
+
+.fredoka-600 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.navLink {
+  @apply flex justify-center items-center text-yellow-100 font-bold transition;
+}
+
+.linkIcon {
+  @apply rounded-full bg-white p-4 text-blue-500 font-bold transition;
+}
+
+.linkIcon:hover {
+  @apply bg-gray-900 text-white;
+}
+
+nav ul li a:hover {
+  @apply text-cyan-400;
+}
