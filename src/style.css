@@ -13,8 +13,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .navLink {
@@ -31,4 +30,8 @@
 
 nav ul li a:hover {
   @apply text-cyan-400;
+}
+
+.paragraph {
+  @apply bg-blue-300 p-4 rounded-xl mb-8;
 }
