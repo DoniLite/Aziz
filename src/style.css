@@ -33,5 +33,5 @@ nav ul li a:hover {
 }
 
 .paragraph {
-  @apply bg-blue-300 p-4 rounded-xl mb-8;
+  @apply bg-gradient-to-r from-sky-500 to-indigo-500 shadow-md shadow-black text-white p-4 rounded-xl mb-8;
 }
